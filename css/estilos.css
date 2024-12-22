@@ -1,0 +1,32 @@
+body {
+    background-color: #B5F47A; /*color de fondo*/
+}
+.cabecera {
+    background-color: beige; /*color de fondo*/
+    height: 450px;
+}
+.cabecera .logo {
+    width: 10%;
+}
+.cabecera .nombre-sitio{
+    color: black;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lista{
+    float: right; /*enviarlo a la derecha*/
+    color: brown; /*color del texto*/
+}
+ .lista li{
+ list-style: none; /*Para quitar la vineta*/
+ }
+ .lista li{
+    display: inline-block /*Para colocar la lista enfilo y no en columna*/
+ }  
+ .lista li{
+    font-size: 2em;
+ }  
+ .lista li a:hover{
+    font-size: 4em; /*aumnetar el tamano cuando se coloque el puntero*/
+    text-decoration: underline;/*que salga interlineado cuando se coloque el puntero en el texto */
+ }

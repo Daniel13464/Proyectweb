@@ -3,21 +3,28 @@
 <head> <!--Cabecera del sitio--> 
     <meta charset="UTF-8">   <!--u--> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Página HTML</title> <!--Nombre que se visualiza en la página Web--> 
 </head>
 <body> <!--Cuerpo del sitio--> 
     <!--Primera etiqueta son los encabezados, titulos y subtitulos que puede tener una página--> 
-    <h1>Encabezado H1</h1> <!--Es mas importante que lo que está en un h2, TIENE ETIQUETA DE APERTURA Y OTRA DE CIERRE--> 
+    
+<header class="cabecera">
+    <img class="logo" src="img/logo.jpg" alt="Logo Loja">
+    <h1>Encabezado H1</h1>  
     <h2>Encabezado H2</h2>
     <h3>Encabezado H3</h3>
     <h4>Encabezado H4</h4>
     <h5>Encabezado H5</h5>
     <h6>Encabezado H6</h6> <!--Menos importante por que es mas pequeño el texto--> 
+</header>
+<br>
+<span class="nombre-sitio">QUE ES LOJA</span>
     <P>Loja es considerada como un asiento de la cultura ecuatoriana, por esta razón se la conoce como la "Capital Cultural de Ecuador". ​ Un dicho local es: "El que no toca la guitarra puede cantar una canción, el que no canta una canción puede escribir un verso, el que no escribe un verso se lee en un libro".</P><!--Etiqueta de un párrafo, que se puede colocar --> 
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum sapiente asperiores tempore? Quae ea ut, nostrum blanditiis libero voluptas voluptates aliquam quam quia, eligendi magni voluptate repellendus eum laudantium odio.</p>
     <h3>Listas</h3>
     <h5>Listado Ordenadas</h5> 
-    <ol> <!--Es una lista ordenada, sale con números--> 
+    <ol class="lista"> <!--Es una lista ordenada, sale con números--> 
         <li>Diana</li>
         <li>Juan</li>
         <li>Pedro</li>
@@ -37,7 +44,7 @@
     <img src="img/Loja.jpg" alt="Loja">
     <h4>Enlaces</h4>
     <!--como colocar un enlace--> 
-    <h5>Enlaces Relativos</h5>
+    <h5 class="menu">Enlaces Relativos</h5>
     <a href="contactos.html">Contactos</a>
     <a href="secundarias/servicios.html">Servicios</a>
     <h5>Enlaces absolutos sitios externos</h5>
